@@ -1,0 +1,63 @@
+.page {
+	width: 1440px;
+}
+
+.header {
+	height: 200px;
+	background-image: linear-gradient(to right bottom, #ff4da6, #2daec3 70%);
+
+}
+
+.header h1 {
+	font-size: 50px;
+	line-height: 57px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	text-align: left;
+	padding: 70px 0 0 80px;
+}
+
+.image {
+	background-image: url(../img/lampas.jpg);
+	width: 1440px;
+	height: 933px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.menu {
+	background-image: linear-gradient(to right bottom, #2daec3, #ff4da6 100%);
+}
+
+.menu p {
+	font-size: 25px;
+	line-height: 100px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	padding: 0 0 0 80px;
+
+}
+
+nav a {
+	color: #ffffff;
+}
+
+p {
+	font-size: 35px;
+	font-family: 'PT Sans', sans-serif;
+	color: #4a4a4a;
+	padding: 80px 80px;
+}
+
+.footer {
+	background-image: linear-gradient(to right bottom, #2daec3, #ff4da6 80%);
+	height: 200px;
+}
+
+.imageFooter img {
+	width: 205px;
+	height: 46px;
+	padding: 77px 80px;
+}
