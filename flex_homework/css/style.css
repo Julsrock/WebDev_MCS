@@ -95,6 +95,7 @@ img {
     display: flex;
     background-image: linear-gradient(to right bottom, #000000 50%, #e2a028);
     justify-content: space-between;
+    margin-top: 0;
 }
 
 .footer p {
