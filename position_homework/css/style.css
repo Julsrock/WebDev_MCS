@@ -1,6 +1,4 @@
-.page {
-    position: relative;
-}
+
 .header {
     height: 50px;
     background-image: linear-gradient(to right bottom, #ff4da6, #2daec3 70%);
