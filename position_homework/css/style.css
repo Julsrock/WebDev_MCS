@@ -1,3 +1,6 @@
+.page {
+    position: relative;
+}
 .header {
     height: 50px;
     background-image: linear-gradient(to right bottom, #ff4da6, #2daec3 70%);
@@ -60,7 +63,7 @@ h1 {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     background-image: linear-gradient(to right bottom, #2daec3, #ff4da6 80%);
     height: 50px;
