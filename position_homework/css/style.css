@@ -61,7 +61,6 @@ h1 {
 }
 
 .footer {
-    position: relative;
     bottom: 0;
     background-image: linear-gradient(to right bottom, #2daec3, #ff4da6 80%);
     height: 50px;
@@ -76,12 +75,12 @@ h1 {
 }
 
 .copyright{
-    position: absolute;
+    vertical-align:bottom;
     display: inline-block;
 }
 
 .link {
-    position: absolute;
+    vertical-align:bottom;
     display: inline-block;
     float: right;
     margin: 15px 80px;
