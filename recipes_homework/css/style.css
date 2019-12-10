@@ -1,0 +1,97 @@
+@import url(reset.css);
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/head.jpg);
+    height: 300px;
+}
+
+h1 {
+    font-family:'Mountains of Christmas', cursive;
+    font-size: 100px;
+    color: #ffffff;
+    padding: 100px 40px 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gupter', serif;
+    font-size: 26px;
+    color: #000000;
+    padding: 40px 40px 20px 40px;
+    font-weight: bold;
+}
+
+.columns {
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.column {
+    border: 1px solid lightgrey;
+    width: calc((100% - 80px)/3);
+}
+
+ul {
+    font-family: 'Gupter', serif;
+    font-size: 22px;
+    color: #000000;
+    line-height: 1.3em;
+}
+
+.ingredients {
+    padding: 20px 40px;
+}
+
+.direction {
+    padding: 0 40px 40px;
+}
+
+.image1 {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.image2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.image3 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    background-image: url(../img/footer.jpg);
+    justify-content: space-between;
+}
+
+.footer p {
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.footerItem {
+    margin: 40px;
+}
+
+a {
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
