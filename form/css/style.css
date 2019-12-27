@@ -1,0 +1,136 @@
+@import url(reset.css);
+
+.header {
+    height: 80px;
+    background-color: #c42034;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 30px;
+}
+
+.page {
+    background-image: url(../img/bg.jpg);
+    height: 88vh;
+    display: flex;
+}
+
+form {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-self: center;
+}
+
+.personal {
+    width: 20%;
+    background-color: #c42034;
+    border: 2px solid #3a1d18;
+    border-radius: 20px;
+    margin: 0 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 30px;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #c42034;
+}
+
+input::placeholder {
+    transition: 0.5s;
+    color: #aaa;
+}
+
+label {
+    line-height: 3rem;
+    padding: 0 20px;
+    display: block;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #1976D2;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+
+input[type="submit"] {
+    background-color: #3a1d18;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #dedbe6;
+    color: black;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    background-color: #c42034;
+    justify-content: space-between;
+}
+
+.footerItem {
+    margin: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    align-self: center;
+}
+
+a {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 600px) {
+
+
+}
+
+@media screen and (min-width: 960px) {
+
+}
+
+@media screen and (min-width: 1264px) {
+
+    .page {
+        display: flex;
+
+    }
+
+    form {
+        align-self: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1904px) {
+
+}
